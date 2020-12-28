@@ -22,40 +22,7 @@
        padding: 7px;
    }
    /*=============tin css=============*/
-   .card {
-       background-color: #fff;
-       -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,.15);
-       box-shadow: 0 0 10px 0 rgba(0,0,0,.15);
-       border: transparent;
-       -webkit-transition: 0.5s;
-       transition: 0.5s;
-       margin-bottom: 30px;
-   }
-   .card-body {
-       padding: 15px 20px 20px 20px;
-   }
-   .card-body h4 {
-       margin: 0px 0px 15px 0;
-       font-weight: 700;
-       font-size: 22px;
-       line-height: 23px;
-       color: #535353;
-       letter-spacing: .54px;
-   }
-   .card-body p {
-       overflow: hidden;
-       display: -webkit-box;
-       -webkit-line-clamp: 5;
-       -webkit-box-orient: vertical;
-       margin-bottom: 17px;
-   }
-   .common-text {
-       font-size: 15px;
-       font-weight: 400;
-       color: #7d7d7d;
-       line-height: 21px;
-       text-align: left;
-   }
+  
    .tin-bnt {
        position: relative;
        outline: none;
@@ -127,19 +94,7 @@
            transform: translate3d(0, 0, 0) translateZ(0);
        }
    }
-   .card:hover {
-       -webkit-transform: translateY(-10px);
-       -webkit-transition: 0.5s;
-       transition: 0.5s;
-       box-shadow: 0px 2px 2px #bcbcbc;
-       background: #00afef;
-   }
-   .card:hover h4 {
-       color: #fff;
-   }
-   .card:hover p {
-       color: #fff;
-   }
+   
    .sec-title {
        font-size: 38px;
        font-weight: 700;
@@ -232,87 +187,7 @@
    .home-intro {
        margin-bottom: 30px;
    }
-   /*================================================
-   Footer Area CSS
-   =================================================*/
-   #footer {
-       background-image: linear-gradient(210deg,#00afef 0%,#02749e 100%)!important;
-       padding-top: 20px;
-   }
-   .footer-area{
-       z-index: 0;
-   }
-   .copyright {
-       border-top: 1px solid #ffffff33;
-       padding: 20px 0px;
-       color: #fff;
-       font-size: 14px;
-       font-weight: 500;
-   }
-   .f-contact {
-       color: #fff;
-       line-height: 27px;
-       font-size: 15px;
-       font-weight: 500;
-       padding-bottom: 13px;
-   }
-   .tin-btn {
-       min-height: 48px;
-       border-radius: 0;
-       color: #fff;
-       font-weight: 500;
-       background-image: linear-gradient(210deg,#58BA52 0%,#2F8F83 100%)!important;
-       padding: 10px 10px 0px 9px;
-       border: 0;
-   }
-   .f-social {
-       text-align: right;
-   }
-   .f-social a {
-       color: #fff!important;
-       padding: 0px 0px 0px 22px;
-       font-size: 19px;
-   }
-   .copyright a {
-       color: #ffffff;
-       font-weight: 700;
-   }
-   .ulink ul {
-       list-style: none;
-       padding: 0;
-       font-size: 14px;
-       /* text-transform: uppercase; */
-       letter-spacing: -.02em;
-       /* line-height: 1.2em; */
-       font-weight: 600;
-       /* color: #fff; */
-   }
-   .ulink ul li a {
-       color: #fff;
-       line-height: 24px;
-       font-size: 14px;
-       font-weight: 500;
-   }
-   .f-heading {
-       text-transform: uppercase;
-       font-weight: 600;
-       color: #ffffff;
-       font-size: 20px;
-       padding-left: 0;
-       margin-top: 15px;
-       padding-bottom: 0px;
-   }
-   /*.nav>li>a {*/
-   /*    padding-left:10px!important;*/
-   /*    padding-right:10px!important;*/
-   /*}*/
-   #footer h4 {
-       font-size: 15px;
-       font-weight: 700;
-   }
-   /*================================================
-   Footer Area CSS
-   =================================================*/
+  
    .sidebar {
        padding: 2px 15px;
        background-color: #fff;

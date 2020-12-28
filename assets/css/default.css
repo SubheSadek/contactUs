@@ -342,83 +342,9 @@ section.video blockquote i.fa-quote-left {
 	background-color: #00afef !important;
 }
 
-#header nav ul.nav-main ul.dropdown-menu,
-#header nav ul.nav-main li.dropdown.open .dropdown-toggle,
-#header nav ul.nav-main li.active a,
-#header nav ul.nav-main li > a:hover,
-#header nav ul.nav-main li.dropdown:hover a {
-	color: #FFF;
-	background-color: #00afef !important;
-}
 
-#header nav ul.nav-main ul.dropdown-menu li:hover > a {
-	background-color: #23c4ff !important;
-}
 
-#header nav ul.nav-main ul.dropdown-menu {
-	color: #ffffff;
-	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-	background-color: #00afef;
-	border-color: #00afef;
-}
 
-#header nav ul.nav-main ul.dropdown-menu:hover {
-	border-color: #0abdff;
-	background-color: #0abdff;
-}
-
-#header nav ul.nav-main ul.dropdown-menu:active,
-#header nav ul.nav-main ul.dropdown-menu:focus {
-	border-color: #009cd6;
-	background-color: #009cd6;
-}
-
-#header nav ul.nav-main li.dropdown:hover ul.dropdown-menu li > a {
-	background: none !important;
-}
-
-#header nav ul.nav-main li.dropdown:hover ul.dropdown-menu li > a:hover {
-	background: #0abdff !important;
-}
-
-@media (min-width: 992px) {
-	#header.single-menu nav ul.nav-main li.active > a {
-		border-top: 5px solid #00afef;
-	}
-
-	#header.darken-top-border {
-		border-top: 5px solid #009cd6 !important;
-	}
-
-	#header.colored .header-top {
-		background-color: #00afef;
-	}
-
-	#header.colored .header-top ul.nav-top li a:hover {
-		background-color: #0abdff !important;
-	}
-
-	#header.flat-menu nav ul.nav-main li > a,
-  #header.flat-menu nav ul.nav-main li.active > a {
-		/* color: #666;*/
-		color:#000000;
-	}
-
-	#header.flat-menu nav ul.nav-main li.active > a {
-		color: #00afef;
-		background-color: transparent !important;
-	}
-
-	#header.flat-menu nav ul.nav-main li > a:hover,
-  #header.flat-menu nav ul.nav-main li.dropdown:hover a {
-		color: #FFF;
-		background-color: #00afef !important;
-	}
-
-	#header nav.mega-menu ul.nav-main li.mega-menu-item ul.dropdown-menu {
-		border-top-color: #00afef;
-	};
-}
 
 blockquote.testimonial {
 	background: #0abdff;
